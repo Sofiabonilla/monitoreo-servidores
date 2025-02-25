@@ -7,7 +7,7 @@ import requests
 # Configuración
 SERVIDORES = [("10.0.2.15", "sofiabonilla", "bruno")]
 TELEGRAM_BOT_TOKEN = "7856544682:AAGgnhcoMf-GS-EalmHIsvAKz8jO8JjjWrg"
-TELEGRAM_CHAT_ID = "-4631008134"
+TELEGRAM_CHAT_ID = "-1002276265096"
 
 def get_local_metrics():
     hostname = socket.gethostname()
@@ -48,8 +48,8 @@ def save_to_db(hostname, ip, cpu, mem, disk):
     conn.close()
 
 def send_telegram_alert(message):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
-    data = {"chat_id": TELEGRAM_CHAT_ID, "text": message}
+    url = f"https://api.telegram.org/bot7856544682:AAGgnhcoMf-GS-EalmHIsvAKz8jO8JjjWrg/sendMessage"
+    data = {"chat_id": "-1002276265096", "text": message}
     requests.post(url, data=data)
 
 # Monitoreo local y remoto
