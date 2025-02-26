@@ -14,7 +14,7 @@ En esta prueba tecnica se implementa un sistema de monitoreo para servidores Lin
 
 ---
 
-## 🛠️ **1. Instalación y Configuración**  
+## 🛠️ **Instalación y Configuración**  
 
 ### 🔹 **Requisitos Previos**    
 - Python 3  
@@ -25,10 +25,10 @@ En esta prueba tecnica se implementa un sistema de monitoreo para servidores Lin
 Ejecuta (en un entorno virtual):  
 ```bash
 pip install psutil requests fastapi uvicorn sqlite3
-
+```
 ---
 
-### 🛠️**Configuración del Bot**
+## 🛠️**Configuración del Bot**
 TELEGRAM_BOT_TOKEN = "7856544682:AAGgnhcoMf-GS-EalmHIsvAKz8jO8JjjWrg"
 TELEGRAM_CHAT_ID = "ID_DEL_GRUPO"
 
