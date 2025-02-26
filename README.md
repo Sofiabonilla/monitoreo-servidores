@@ -26,17 +26,23 @@ Ejecuta (en un entorno virtual):
 ```bash
 pip install psutil requests fastapi uvicorn sqlite3
 
-### **Configuración del Bot**
+---
+
+### 🛠️**Configuración del Bot**
 TELEGRAM_BOT_TOKEN = "7856544682:AAGgnhcoMf-GS-EalmHIsvAKz8jO8JjjWrg"
 TELEGRAM_CHAT_ID = "ID_DEL_GRUPO"
 
-## **Ejecución del programa**
+---
+
+## 🛠️**Ejecución del programa**
 Iniciar la API: uvicorn api:app --host 0.0.0.0 --port 8000
 Inicial el bot: python3 bot.py
 **En el bot**
 /status : para ver el estado actual del servidor
 /history : para consultar las alertas enviadas.
 
-## **Resultados**
+---
+
+## 📸 **Resultados**
 
 
