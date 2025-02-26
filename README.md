@@ -45,4 +45,28 @@ Inicial el bot: python3 bot.py
 
 ## 📸 **Resultados**
 
+### 1️⃣ Prueba /status
+![Prueba /status](https://drive.google.com/uc?export=view&id=1qB0wYMzfTKUKbxWoKhOnEKnrRNneoXk3)
+
+### 2️⃣ Alerta recibida en Telegram  
+![Alerta de Telegram](https://drive.google.com/uc?export=view&id=1xvsPH_5yL0z1iBTCYROGgHMbHz7C5e2K)  
+
+### 3 Prueba si no funcionan las métricas 
+![No funcionamiento](https://drive.google.com/uc?export=view&id=1vbuw8i6DIjN5cM7aPBgzE8cld5QF_qIa)  
+
+## 🚀 Conclusión  
+
+Este proyecto implementa un sistema de monitoreo y alertas para servidores Linux utilizando **Python, FastAPI, SQLite y Telegram**. Se desarrolló un bot de Telegram que permite consultar el estado de los servidores y un servicio de notificaciones para alertar cuando los recursos superen el **75% de uso**.  
+
+Espero que esta solución cumpla con los requerimientos y demuestre mis habilidades en desarrollo y administración de servidores. Agradezco la oportunidad de participar en esta prueba técnica y estoy entusiasmado por la posibilidad de formar parte de su equipo.  
+
+---
+
+## 📩 Contacto  
+
+Si tienen alguna duda o comentario, pueden contactarme a través de mi correo electrónico:  
+
+✉️ **[ingsofiabonilla@gmail.com](ingsofiabonilla@gmail.com)**  
+
+📌 ¡Gracias por su tiempo y consideración! Espero su respuesta. 🚀  
 
