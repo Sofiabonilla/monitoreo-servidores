@@ -61,6 +61,10 @@ hostname, ip, cpu, mem, disk = get_local_metrics()
 save_to_db(hostname, ip, cpu, mem, disk)
 
 # Enviar alerta si alguno de los recursos supera el umbral
+#if True: #cpu > 75 or mem > 75 or disk > 75: Descomentar para probar la alerta
 if cpu > 75 or mem > 75 or disk > 75:
     alert_msg = f"‼️ ALERTA en {hostname} ({ip})\nCPU: {cpu}%\nRAM: {mem}%\nDisco: {disk}%"
     send_telegram_alert(alert_msg)
+
+
+
